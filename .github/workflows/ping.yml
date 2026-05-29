@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Ping Render
-        run: curl -L https://insyt-oukm.onrender.com/about
+        run: curl -L https://insyt-oukm.onrender.com/
