@@ -16,4 +16,4 @@ jobs:
             --max-time 30 \
             --retry 3 \
             --retry-delay 5 \
-            https://insyt-oukm.onrender.com/ || true
+            https://insyt-oukm.onrender.com/ 
