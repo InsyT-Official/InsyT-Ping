@@ -11,4 +11,9 @@ jobs:
 
     steps:
       - name: Ping Render
-        run: curl -L https://insyt-oukm.onrender.com/
+        run: |
+          curl -L \
+            --max-time 30 \
+            --retry 3 \
+            --retry-delay 5 \
+            https://insyt-oukm.onrender.com/ || true
